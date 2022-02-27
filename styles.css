@@ -618,6 +618,12 @@ input[type="email"] {
 	width: 320px;
 }
 
+.imaya-image {
+	border-radius: 50%;
+	height: 320px;
+	width: 320px;
+}
+
 .emily-image {
 	border-radius: 50%;
 	height: 320px;
@@ -944,6 +950,8 @@ th {
 
 
 
+
+
 /* ================================= 
 			POST PAGES
 ==================================== */
@@ -957,6 +965,12 @@ th {
 	margin-left: 25%;
 	margin-right: 25%;
 	color: #463730;
+	font-size: 20px;
+}
+
+.blog-list {
+	margin-left: 30%;
+	list-style-type: circle;
 	font-size: 20px;
 }
 
