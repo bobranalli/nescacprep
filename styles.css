@@ -1242,7 +1242,7 @@ th {
 	padding: 1rem;
 	border-radius: .35rem;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .40) ;
-	
+	background-color: white;
 	display:inline-block;
 	position:relative;
 	margin-bottom: 30px;
