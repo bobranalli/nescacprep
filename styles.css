@@ -708,6 +708,12 @@ input[type="email"] {
 		width: 300px;
 	}
 	
+	.imaya-image {
+		border-radius: 50%;
+		height: 300px;
+		width: 300px;
+	}
+	
 	.emily-image {
 		border-radius: 50%;
 		height: 300px;
@@ -735,6 +741,10 @@ input[type="email"] {
 		margin-top: 20%;
 	}
 	
+	.imaya-image {
+		margin-top: 20%;
+	}
+	
 	.emily-image {
 		margin-top: 20%;
 	}
@@ -753,6 +763,13 @@ input[type="email"] {
 	}
 	
 	.ben-image {
+		margin-top: 30%;
+		border-radius: 50%;
+		height: 250px;
+		width: 250px;
+	}
+	
+	.imaya-image {
 		margin-top: 30%;
 		border-radius: 50%;
 		height: 250px;
@@ -827,6 +844,13 @@ input[type="email"] {
 		width: 200px;
 	}
 	
+	.imaya-image {
+		margin-top: 30%;
+		border-radius: 50%;
+		height: 200px;
+		width: 200px;
+	}
+	
 	.emily-image {
 		margin-top: 50%;
 		border-radius: 50%;
@@ -843,6 +867,13 @@ input[type="email"] {
 	}
 	
 	.ben-image {
+		margin-top: 60%;
+		border-radius: 50%;
+		height: 140px;
+		width: 140px;
+	}
+	
+	.imaya-image {
 		margin-top: 60%;
 		border-radius: 50%;
 		height: 140px;
@@ -1194,3 +1225,124 @@ th {
 	margin-top: 20%;
 }
 
+
+
+/*CONNECT PAGE FOR REPS */
+
+.connect-header {
+	text-align: center;
+	color: maroon;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.horizontal-card {
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 1rem;
+	border-radius: .35rem;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .40) ;
+	
+	display:inline-block;
+	position:relative;
+	margin-bottom: 30px;
+	
+}
+
+.contact-btn {
+	background-color: maroon;
+	border: none;
+	color: white;
+	font-size: 1.5rem;
+	padding: .5em .75em;
+	border-radius: .25em;
+	cursor: pointer;
+	position: absolute;
+	bottom:1em;
+	right:1em;
+}
+
+.contact-btn:hover, .contact-btn:focus {
+	background-color: #A24857;
+}
+
+.connect-photos {
+	width: 100%;
+}
+
+
+@media only screen and (max-width:600px) {
+	.contact-btn {
+		font-size: 1rem;
+	}
+}
+
+
+
+/**************** GRAVEYARD ****************/
+/**/
+/**/
+/*/* CONNECT PAGE FOR REPS */
+
+/**/
+
+/**/
+/*.card-header {*/
+/*	margin-top: 20px;*/
+/*	font-size: 3rem;*/
+/*	color: #417dc1;*/
+/*	position: absolute;*/
+/*	margin-left: 350px;*/
+/*	*/
+/*}*/
+/**/
+
+/**/
+/**/
+/*.symbol {*/
+/*	margin-top: 100px;*/
+/*	width: 20%;*/
+/*}*/
+/**/
+/*.symbol2 {*/
+/*	margin-top: 65px;*/
+/*	width: 30%;*/
+/*}*/
+/**/
+/*.left-align {*/
+/*	margin-top: 0px;*/
+/*	margin-bottom: 0px;*/
+/*	float:left;*/
+/*	width: 30%;*/
+/*}*/
+/**/
+/*.mid-align {*/
+/*	float: left; */
+/*	width: 30%;*/
+/*}*/
+/**/
+/*.right-align {*/
+/*	float: left;*/
+/*	width: 30%;*/
+/*}*/
+/**/
+/*.symbol-text {*/
+/*	margin-top: 100px;*/
+/*	float: left;*/
+/*}*/
+/**/
+/**/
+
+/**/
+/*.contact-name {*/
+/*	font-size: 2rem;*/
+/*	position: absolute;*/
+/*	margin-top: 212px;*/
+/*	margin-left: 80px;*/
+/*	font-weight: 900;*/
+/*}*/
+/**/
+/*.bob-image2 {*/
+/*	height: 220px;*/
+/*	margin-right: 0px;*/
+/*}*/
