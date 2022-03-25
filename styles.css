@@ -1262,7 +1262,24 @@ th {
 	right:1em;
 }
 
+.contact-btn2 {
+	background-color: maroon;
+	border: none;
+	color: white;
+	font-size: 1.5rem;
+	padding: .5em .75em;
+	border-radius: .25em;
+	cursor: pointer;
+	position: absolute;
+	bottom:1em;
+	right:7em;
+}
+
 .contact-btn:hover, .contact-btn:focus {
+	background-color: #A24857;
+}
+
+.contact-btn2:hover, .contact-btn2:focus {
 	background-color: #A24857;
 }
 
@@ -1271,10 +1288,56 @@ th {
 }
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:1100px) {
 	.contact-btn {
 		font-size: 1rem;
 	}
+	
+	.contact-btn2 {
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (max-width:600px) {
+	.contact-btn {
+		font-size: .75rem;
+	}
+	
+	.contact-btn2 {
+		font-size: .75rem;
+	}
+}
+
+.banner-image {
+	height: 400px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/banner.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 5%;
+	margin-top: 3%;
+	width: 90%;
+	align-content: center;
+	border-radius: .35rem;
+	
+}
+
+.banner-content {
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	margin-top: 7%;
+	margin-left: 10%;
+	padding-top: 50px;
+	padding: 1rem;
+	border-radius: .35rem;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .40) ;
+	background-color: white;
+	color: #463730;
+}
+
+.banner-text {
+	font-size: 2rem;
 }
 
 
@@ -1345,4 +1408,55 @@ th {
 /*.bob-image2 {*/
 /*	height: 220px;*/
 /*	margin-right: 0px;*/
+/*}*/
+
+
+/**/
+/*/*MEETING PAGE */*/
+/*.curtain {*/
+/*	height: 589px;*/
+/*	height:100vh;*/
+/*	position: relative;*/
+/*	z-index: 2;*/
+/*	background: #1d1d1d;*/
+/*	font-family:sans-serif;*/
+/*	font-size:300px;*/
+/*	color:white;*/
+/*	display:flex;*/
+/*	justify-content:center;*/
+/*	align-items:center;*/
+/*		box-shadow: 0 14px 28px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.1);*/
+/*}*/
+/**/
+/*.main{*/
+/*	position: fixed;*/
+/*	bottom:0;*/
+/*	height: 450px;*/
+/*	width: 100%;*/
+/*	background: #e3e3e3;*/
+/*}*/
+/**/
+/*.reveal-main{*/
+/*	height: 400px;*/
+/*	background:#e3e3e3;*/
+/*}*/
+/**/
+/*.main {*/
+/*	color:white;*/
+/*	font-family:sans-serif;*/
+/*	font-size:100px;*/
+/*	text-align:center;*/
+/*}*/
+/**/
+/*.active {*/
+/*	position:relative;*/
+/*	/* margin-top:-111px;*/*/
+/*	margin-top:-6%;*/
+/*	margin-top:-118px;*/
+/*	height:900px;*/
+/*}*/
+/**/
+/*.activetwo {*/
+/*	height:10px;*/
+/*	position:absolute;*/
 /*}*/
